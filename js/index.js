@@ -16,7 +16,7 @@ $(document).ready(function()
    function waitForItUpdate()
    {
       // change the date here
-      var dateFuture = new Date("June 18, 2024 12:00:00");
+      var dateFuture = new Date("July 29, 2024 12:00:00");
       var dateNow = new Date();
       var seconds = Math.floor((dateFuture - (dateNow))/1000);
       var minutes = Math.floor(seconds/60);
