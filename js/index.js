@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var galleryCarousel = new bootstrap.Carousel('#galleryCarousel', {interval: 0, pause: false});
+});
 $(document).ready(function()
 {
    $("a[href*='#testimonials4LayoutGrid']").click(function(event)
