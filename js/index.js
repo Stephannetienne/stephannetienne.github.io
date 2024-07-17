@@ -1,8 +1,10 @@
 function displaylightbox(url, options)
 {
-   options.items = { src: url };
+   options.padding = 0;
+   options.autoScale = true;
+   options.href = url;
    options.type = 'iframe';
-   $.magnificPopup.open(options);
+   $.fancybox(options);
 }
 document.addEventListener('DOMContentLoaded', function(event)
 {
