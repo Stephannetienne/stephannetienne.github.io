@@ -832,7 +832,9 @@ body
 #FlexContainer3
 {
    display: flex;
+   width: 100%;
    position: relative;
+   min-height: 75vh;
    padding: 10px 10px 10px 10px;
    flex-direction: row;
    flex-wrap: nowrap;
@@ -840,8 +842,11 @@ body
    align-items: center;
    align-content: flex-start;
    margin: 0;
-   background-color: #FFFFFF;
-   background-image: none;
+   background-color: transparent;
+   background-image: url('images/Booth_flat_station_small_01.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: contain;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    box-sizing: border-box;
@@ -2530,7 +2535,7 @@ body
    text-align: left;
    text-transform: none;
 }
-#wb_Image2
+#wb_ImageHotspots1
 {
    margin: 0;
    flex-grow: 0;
@@ -2538,14 +2543,14 @@ body
    align-self: auto;
    vertical-align: top;
 }
-#Image2
+#ImageHotspots1
 {
    border: 0px solid #000000;
    border-radius: 0px;
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 1239px;
+   width: 65px;
    height: auto;
 }
 </style>
@@ -2553,6 +2558,7 @@ body
 <script src="js/jquery.ui.effect.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/imagemapresizer.min.js"></script>
 <script src="js/index.js"></script>
 </head>
 <body>
@@ -2643,8 +2649,13 @@ body
 </div>
 </div>
 <div id="FlexContainer3">
-<div id="wb_Image2" style="display:block;width:1239px;z-index:11;">
-<img src="images/Booth_flat_station_small_01.png" id="Image2" alt="" width="1239" height="407">
+<div id="wb_ImageHotspots1" style="display:block;width:65px;z-index:11;">
+<img src="images/rec.png" id="ImageHotspots1" alt="" usemap="#ImageHotspots1-map" style="margin-right{
+100px
+}" width="512" height="512">
+<map name="ImageHotspots1-map">
+<area shape="circle" id="ImageHotspots1-hotspot-0" coords="0,0,394" href="" target="" alt="" title="">
+</map>
 </div>
 </div>
 <div id="wb_FlexContainer1">

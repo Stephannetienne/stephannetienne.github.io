@@ -14,4 +14,5 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_form3LayoutGrid1').offset().top-80 }, 600, 'easeInQuad');
    });
+   $('#wb_ImageHotspots1 map').imageMapResize();
 });
