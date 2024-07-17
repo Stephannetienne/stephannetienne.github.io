@@ -1401,7 +1401,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3
+#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3, #form3LayoutGrid1 > .row > .col-4
 {
    box-sizing: border-box;
    font-size: 0;
@@ -1410,7 +1410,7 @@ body
    padding-left: 15px;
    position: relative;
 }
-#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3
+#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3, #form3LayoutGrid1 > .row > .col-4
 {
    float: left;
 }
@@ -1420,7 +1420,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 8.33333333%;
+   width: 16.66666667%;
    text-align: center;
 }
 #form3LayoutGrid1 > .row > .col-2
@@ -1429,7 +1429,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 41.66666667%;
+   width: 33.33333333%;
    text-align: left;
 }
 #form3LayoutGrid1 > .row > .col-3
@@ -1439,6 +1439,15 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 8.33333333%;
+   text-align: left;
+}
+#form3LayoutGrid1 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 41.66666667%;
    text-align: left;
 }
 #form3LayoutGrid1:before,
@@ -1456,7 +1465,7 @@ body
 }
 @media (max-width: 480px)
 {
-#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3
+#form3LayoutGrid1 > .row > .col-1, #form3LayoutGrid1 > .row > .col-2, #form3LayoutGrid1 > .row > .col-3, #form3LayoutGrid1 > .row > .col-4
 {
    float: none;
    width: 100%;
@@ -2873,10 +2882,21 @@ body
 </div>
 <div class="col-2">
 <div id="wb_Image6" style="display:block;width:100%;height:auto;z-index:24;">
-<img src="images/Yellow%20Logo_03.gif" id="Image6" alt="" width="553" height="283">
+<img src="images/Yellow%20Logo_03.gif" id="Image6" alt="" width="437" height="223">
 </div>
 </div>
 <div class="col-3">
+</div>
+<div class="col-4">
+<div id="wb_form3Heading" style="display:block;width:100%;z-index:25;">
+<h1 id="form3Heading">CONTACT US</h1>
+</div>
+<div id="wb_form3Text">
+<span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><em>Any questions or remarks? Just write us a message!</em></span>
+</div>
+<div id="wb_form3Shape" style="display:inline-block;width:86px;height:6px;z-index:27;position:relative;">
+<div id="form3Shape"></div>
+</div>
 </div>
 </div>
 </div>
@@ -2888,15 +2908,15 @@ body
 <div id="wb_form3Address">
 <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">1060 Bd du Curé-Labelle,<br>Blainville, QC J7C 2M6<br>Email: info@virtual-process.com<br></span>
 </div>
-<div id="wb_form3Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:26;">
+<div id="wb_form3Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:29;">
 <a href="#"><div id="form3Icon1"><i class="fa fa-linkedin-square"></i></div></a>
 </div>
 </div>
 <div class="col-2">
-<input type="text" id="form3Name" style="display:block;width: 100%;height:42px;z-index:27;" name="name" value="" spellcheck="false" placeholder="Name">
-<input type="text" id="form3Email" style="display:block;width: 100%;height:42px;z-index:28;" name="email" value="" spellcheck="false" placeholder="E-mail">
-<input type="text" id="form3Message" style="display:block;width: 100%;height:141px;z-index:29;" name="message" value="" spellcheck="false" placeholder="Message">
-<input type="submit" id="form3Button" name="" value="Send message" style="display:inline-block;width:188px;height:40px;z-index:30;">
+<input type="text" id="form3Name" style="display:block;width: 100%;height:42px;z-index:30;" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="form3Email" style="display:block;width: 100%;height:42px;z-index:31;" name="email" value="" spellcheck="false" placeholder="E-mail">
+<input type="text" id="form3Message" style="display:block;width: 100%;height:141px;z-index:32;" name="message" value="" spellcheck="false" placeholder="Message">
+<input type="submit" id="form3Button" name="" value="Send message" style="display:inline-block;width:188px;height:40px;z-index:33;">
 </div>
 </div>
 </form>
