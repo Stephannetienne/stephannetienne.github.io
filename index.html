@@ -20,6 +20,14 @@ body
 </style>
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <style>
+@keyframes heartbeat-1
+{
+   0% { transform: rotate(0deg) ;  }
+   15% { transform: rotate(0deg) scale(1.2,1.2) ;  }
+   25% { transform: rotate(0deg) scale(1.1,1.1) ;  }
+   35% { transform: rotate(0deg) scale(1.2,1.2) ;  }
+   100% { transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
 #wb_Image1
 {
    margin: 0;
@@ -48,7 +56,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url('images/thisisengineering%2dZPeXrWxOjRQ%2dunsplash.jpg');
+   background-image: url('images/Manufacturing%2dTech.jpg');
    background-repeat: no-repeat;
    background-position: left center;
    background-size: cover;
@@ -916,7 +924,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#testimonials4LayoutGrid > .row > .col-1, #testimonials4LayoutGrid > .row > .col-2
+#testimonials4LayoutGrid > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -925,7 +933,7 @@ body
    padding-left: 15px;
    position: relative;
 }
-#testimonials4LayoutGrid > .row > .col-1, #testimonials4LayoutGrid > .row > .col-2
+#testimonials4LayoutGrid > .row > .col-1
 {
    float: left;
 }
@@ -935,17 +943,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 50%;
+   width: 100%;
    text-align: left;
-}
-#testimonials4LayoutGrid > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 50%;
-   text-align: center;
 }
 #testimonials4LayoutGrid:before,
 #testimonials4LayoutGrid:after,
@@ -962,7 +961,7 @@ body
 }
 @media (max-width: 768px)
 {
-#testimonials4LayoutGrid > .row > .col-1, #testimonials4LayoutGrid > .row > .col-2
+#testimonials4LayoutGrid > .row > .col-1
 {
    float: none;
    width: 100% !important;
@@ -1049,249 +1048,6 @@ body
    font-size: 16px;
    margin: 0;
 }
-#wb_testimonials4Card2
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0 0 20px 0 ;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   text-align: left;
-}
-#testimonials4Card2-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#testimonials4Card2-card-item0
-{
-   box-sizing: border-box;
-   margin: 10px 20px 20px 20px;
-   padding: 0;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 32px;
-   line-height: 32px;
-}
-#testimonials4Card2-card-item0 i
-{
-   color: #0D6EFD;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 32px;
-   width: 32px;
-}
-#testimonials4Card2-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 20px 20px 20px;
-   padding: 0;
-}
-#testimonials4Card2-card-item1 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: italic;
-   font-size: 16px;
-   margin: 0;
-}
-#testimonials4Card2-card-item2
-{
-   box-sizing: border-box;
-   margin: 0 20px 0 20px;
-   border-top: 1px #D2D2D2 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#testimonials4Card2-card-item3
-{
-   box-sizing: border-box;
-   margin: 20px 0 20px 20px;
-   padding: 0;
-}
-#testimonials4Card2-card-item3 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#wb_testimonials4Card3
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0 0 20px 0 ;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   text-align: left;
-}
-#testimonials4Card3-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#testimonials4Card3-card-item0
-{
-   box-sizing: border-box;
-   margin: 10px 20px 20px 20px;
-   padding: 0;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 32px;
-   line-height: 32px;
-}
-#testimonials4Card3-card-item0 i
-{
-   color: #0D6EFD;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 32px;
-   width: 32px;
-}
-#testimonials4Card3-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 20px 20px 20px;
-   padding: 0;
-}
-#testimonials4Card3-card-item1 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: italic;
-   font-size: 16px;
-   margin: 0;
-}
-#testimonials4Card3-card-item2
-{
-   box-sizing: border-box;
-   margin: 0 20px 0 20px;
-   border-top: 1px #D2D2D2 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#testimonials4Card3-card-item3
-{
-   box-sizing: border-box;
-   margin: 20px 0 20px 20px;
-   padding: 0;
-}
-#testimonials4Card3-card-item3 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#wb_testimonials4Card4
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0 0 20px 0 ;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   text-align: left;
-}
-#testimonials4Card4-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#testimonials4Card4-card-item0
-{
-   box-sizing: border-box;
-   margin: 10px 20px 20px 20px;
-   padding: 0;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 32px;
-   line-height: 32px;
-}
-#testimonials4Card4-card-item0 i
-{
-   color: #0D6EFD;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 32px;
-   width: 32px;
-}
-#testimonials4Card4-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 20px 20px 20px;
-   padding: 0;
-}
-#testimonials4Card4-card-item1 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: italic;
-   font-size: 16px;
-   margin: 0;
-}
-#testimonials4Card4-card-item2
-{
-   box-sizing: border-box;
-   margin: 0 20px 0 20px;
-   border-top: 1px #D2D2D2 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#testimonials4Card4-card-item3
-{
-   box-sizing: border-box;
-   margin: 20px 0 20px 20px;
-   padding: 0;
-}
-#testimonials4Card4-card-item3 h1
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
 #HorizontalLine3
 {
    border-color: #CBD0D3;
@@ -1327,7 +1083,7 @@ body
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 24px;
+   font-size: 48px;
    margin: 0;
    text-align: center;
    text-transform: none;
@@ -1510,6 +1266,34 @@ body
    margin: 0;
    vertical-align: top;
 }
+#wb_FlexContainer4
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   position: relative;
+   width: 100%;
+}
+#FlexContainer4
+{
+   display: flex;
+   position: relative;
+   padding: 25px 15px 25px 15px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+   box-sizing: border-box;
+   font-size: 0;
+}
 #wb_gallery1LayoutGrid
 {
    clear: both;
@@ -1636,7 +1420,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 33.33333333%;
+   width: 41.66666667%;
    text-align: center;
 }
 #form3LayoutGrid1 > .row > .col-2
@@ -1645,7 +1429,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 16.66666667%;
+   width: 8.33333333%;
    text-align: left;
 }
 #form3LayoutGrid1 > .row > .col-3
@@ -1918,7 +1702,7 @@ body
    display: block;
    width: 100%;
    height: auto;
-   max-width: 204px;
+   max-width: 244px;
    margin-left: auto;
    margin-right: auto;
    vertical-align: top;
@@ -1955,7 +1739,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    width: 100%;
-   height: auto;
+   height: 300px;
 }
 #features2Card1-card-item1
 {
@@ -2032,7 +1816,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    width: 100%;
-   height: auto;
+   height: 300px;
 }
 #Card1-card-item1
 {
@@ -2088,7 +1872,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    width: 100%;
-   height: auto;
+   height: 300px;
 }
 #Card2-card-item1
 {
@@ -2384,7 +2168,7 @@ body
 #galleryCarousel .frame-9
 {
    background-color: transparent;
-   background-image: url('images/number9.png');
+   background-image: url('images/1714764984891.jpeg');
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -2415,18 +2199,11 @@ body
    text-align: center;
    vertical-align: top;
 }
-#galleryPhotoGallery .frame
-{
-   padding: 4px;
-   background-color: #fff;
-   border: 1px #DDDDDD solid;
-   border-radius: 5px;
-}
 #galleryPhotoGallery .thumbnail img
 {
-   border-width: 0;
+   border: 1px #000000 solid;
    box-sizing: border-box;
-   border-radius: 0px;
+   border-radius: 5px;
 }
 #galleryPhotoGallery .clearfix:before,
 #galleryPhotoGallery .clearfix:after,
@@ -2447,96 +2224,271 @@ body
 }
 #galleryPhotoGallery_img0
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img1
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img2
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img3
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img4
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img5
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img6
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img7
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
 #galleryPhotoGallery_img8
 {
-   width: 90px;
-   height: 90px;
+   width: 92px;
+   height: 92px;
 }
-#wb_gallery1Heading
+#wb_divider3Heading
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #000000;
+   border: 0px solid transparent;
    border-radius: 0px;
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 0 0 30px 0 ;
+   margin: 0;
    padding: 0;
-   text-align: left;
-}
-#gallery1Heading
-{
-   color: #888888;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 24px;
-   margin: 0;
-   text-align: left;
-   text-transform: none;
-}
-#wb_ImageHotspots1
-{
-   margin: 0;
+   text-align: center;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
+}
+#divider3Heading
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 48px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   height: 100vh;
+   padding: 0 15px 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Image2
+{
+   margin: 0;
    vertical-align: top;
 }
-#ImageHotspots1
+#Image2
 {
    border: 0px solid #000000;
    border-radius: 0px;
    box-sizing: border-box;
    padding: 0;
-   display: inline-block;
-   width: 65px;
+   animation: heartbeat-1 1000ms linear 0ms infinite normal both;
+   display: block;
+   width: 100%;
    height: auto;
+   max-width: 79px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
 }
 </style>
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/jquery.ui.effect.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/imagemapresizer.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
 <script src="js/index.js"></script>
 </head>
 <body>
@@ -2553,7 +2505,7 @@ body
 <div id="wb_intro1Heading1" style="display:block;width:100%;z-index:1;">
 <h1 id="intro1Heading1" style="#intro1Heading {<br>   padding-bottom: 100px;<br>}">Your manufacturing partner</h1>
 </div>
-<a id="intro1Button2" href="https://www.wysiwygwebbuilder.com/purchase.html" style="display:inline-block;width:187px;height:38px;z-index:2;">LEARN MORE ABOUT VP</a>
+<a id="intro1Button2" href="virtual-process.com" style="display:inline-block;width:187px;height:38px;z-index:2;">LEARN MORE ABOUT VP</a>
 </div>
 </div>
 </div>
@@ -2628,18 +2580,43 @@ body
 </div>
 </div>
 <div id="FlexContainer3">
-<div id="wb_ImageHotspots1" style="display:block;width:65px;z-index:10;">
-<img src="images/rec.png" id="ImageHotspots1" alt="" usemap="#ImageHotspots1-map" style="margin-right{
-100px
-}" width="512" height="512">
-<map name="ImageHotspots1-map">
-<area shape="circle" id="ImageHotspots1-hotspot-0" coords="0,0,394" href="" target="" alt="" title="">
-</map>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Image2" style="display:block;width:100%;height:auto;z-index:10;">
+<a href="javascript:displaylightbox('./images/This is the first part It is used to do the first Job 1-Lorem Ipsum 2-Lorem Ipsum dolorum.png',{})" target="_self"><img src="images/rec.png" id="Image2" alt="" width="85" height="85"></a>
+</div>
+</div>
+<div class="col-3">
+</div>
+<div class="col-4">
+</div>
+<div class="col-5">
+</div>
+<div class="col-6">
+</div>
+<div class="col-7">
+</div>
+<div class="col-8">
+</div>
+<div class="col-9">
+</div>
+<div class="col-10">
+</div>
+<div class="col-11">
+</div>
+<div class="col-12">
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="wb_FlexContainer1">
 <div id="FlexContainer1">
-<div id="wb_MediaPlayer1" style="display:inline-block;width:905px;height:602px;z-index:11;">
+<div id="wb_MediaPlayer1" style="display:inline-block;width:942px;height:614px;z-index:12;">
 <video id="MediaPlayer1" autoplay controls>
 <source src="Création%20sans%20titre.mp4" type="video/mp4">
 </video>
@@ -2650,8 +2627,8 @@ body
 <div id="wb_FlexContainer2">
 <div id="FlexContainer2">
 <hr id="HorizontalLine3" style="display:block;">
-<div id="wb_Heading2" style="display:block;width:382px;z-index:13;">
-<h2 id="Heading2">What current users are saying</h2>
+<div id="wb_Heading2" style="display:block;width:382px;z-index:14;">
+<h2 id="Heading2">Testimonial</h2>
 </div>
 <hr id="HorizontalLine4" style="display:block;">
 </div>
@@ -2660,38 +2637,12 @@ body
 <section id="testimonials4LayoutGrid">
 <div class="row">
 <div class="col-1">
-<div id="wb_testimonials4Card1" style="display:flex;width:100%;z-index:15;" class="card">
+<div id="wb_testimonials4Card1" style="display:flex;width:100%;z-index:16;" class="card">
 <div id="testimonials4Card1-card-body">
 <div id="testimonials4Card1-card-item0"><i class="fa fa-quote-left"></i></div>
 <div id="testimonials4Card1-card-item1"><h1>Virtual-Process allows us to communicate faster with our employees while also ensuring, at every point of the assembly, that we are making flawless products</h1></div>
 <hr id="testimonials4Card1-card-item2">
 <div id="testimonials4Card1-card-item3"><h1>Jean Clairmont - Lumenpulse</h1></div>
-</div>
-</div>
-<div id="wb_testimonials4Card2" style="display:flex;width:100%;z-index:16;" class="card">
-<div id="testimonials4Card2-card-body">
-<div id="testimonials4Card2-card-item0"><i class="fa fa-quote-left"></i></div>
-<div id="testimonials4Card2-card-item1"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </h1></div>
-<hr id="testimonials4Card2-card-item2">
-<div id="testimonials4Card2-card-item3"><h1>JANE DOE</h1></div>
-</div>
-</div>
-</div>
-<div class="col-2">
-<div id="wb_testimonials4Card3" style="display:flex;width:100%;z-index:17;" class="card">
-<div id="testimonials4Card3-card-body">
-<div id="testimonials4Card3-card-item0"><i class="fa fa-quote-left"></i></div>
-<div id="testimonials4Card3-card-item1"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </h1></div>
-<hr id="testimonials4Card3-card-item2">
-<div id="testimonials4Card3-card-item3"><h1>JOHN DOE</h1></div>
-</div>
-</div>
-<div id="wb_testimonials4Card4" style="display:flex;width:100%;z-index:18;" class="card">
-<div id="testimonials4Card4-card-body">
-<div id="testimonials4Card4-card-item0"><i class="fa fa-quote-left"></i></div>
-<div id="testimonials4Card4-card-item1"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </h1></div>
-<hr id="testimonials4Card4-card-item2">
-<div id="testimonials4Card4-card-item3"><h1>JANE DOE</h1></div>
 </div>
 </div>
 </div>
@@ -2711,26 +2662,33 @@ body
 </div>
 <div id="wb_features2CardContainer">
 <div id="features2CardContainer">
-<div id="wb_features2Card1" style="display:flex;z-index:20;" class="card">
+<div id="wb_features2Card1" style="display:flex;z-index:18;" class="card">
 <div id="features2Card1-card-body">
 <div style="overflow:hidden"><img id="features2Card1-card-item0" src="images/design%2dsans%2dtitre.png" width="600" height="500" alt="" title=""></div>
 <div id="features2Card1-card-item1">MMTS 2024</div>
 <div id="features2Card1-card-item2"> Quebec's Premier Manufacturing Technology Event</div>
 </div>
 </div>
-<div id="wb_Card1" style="display:flex;z-index:21;" class="card">
+<div id="wb_Card1" style="display:flex;z-index:19;" class="card">
 <div id="Card1-card-body">
 <div style="overflow:hidden"><img id="Card1-card-item0" src="images/apex24logo_0.png" width="1200" height="675" alt="" title=""></div>
 <div id="Card1-card-item1">IPC APEX EXPO 2024</div>
 <div id="Card1-card-item2">The largest electronic manufacturing event in North America featuring a world-class trade show.</div>
 </div>
 </div>
-<div id="wb_Card2" style="display:flex;z-index:22;" class="card">
+<div id="wb_Card2" style="display:flex;z-index:20;" class="card">
 <div id="Card2-card-body">
 <div style="overflow:hidden"><img id="Card2-card-item0" src="images/lpms%2devents%2dthe%2dassembly%2dshow%2dsouth%2d2023.jpg" width="900" height="675" alt="" title=""></div>
 <div id="Card2-card-item1">SHOW 1</div>
-<div id="Card2-card-item2">This event is all about connecting buyers and end users of assembly equipment, products and technology with the most cutting-edge, top-of-the-line tools to streamline assembly processes and improve your bottom line.</div>
+<div id="Card2-card-item2">This event is all about connecting buyers and end users of assembly equipment, products and technology with the most cutting-edge processes and improve your bottom line.</div>
 </div>
+</div>
+</div>
+</div>
+<div id="wb_FlexContainer4">
+<div id="FlexContainer4">
+<div id="wb_divider3Heading" style="display:block;width:475px;z-index:21;">
+<h2 id="divider3Heading">Our gallery</h2>
 </div>
 </div>
 </div>
@@ -2738,55 +2696,37 @@ body
 <div id="gallery1LayoutGrid">
 <div class="row">
 <div class="col-1">
-<div id="wb_galleryPhotoGallery" style="display:block;width:100%;z-index:23;">
+<div id="wb_galleryPhotoGallery" style="display:block;width:100%;z-index:22;">
 <div id="galleryPhotoGallery">
    <div class="thumbnails">
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="0"><img alt="" id="galleryPhotoGallery_img0" src="images/tn_1719499982580.jpg" class="image" width="217" height="184"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="1"><img alt="" id="galleryPhotoGallery_img1" src="images/tn_1719499983399.jpg" class="image" width="217" height="239"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="2"><img alt="" id="galleryPhotoGallery_img2" src="images/tn_1719499983551.jpg" class="image" width="217" height="289"></a>
-</div>
       </figure>
       <div class="clearfix visible-col3"></div>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="3"><img alt="" id="galleryPhotoGallery_img3" src="images/tn_1715286821429.jpg" class="image" width="217" height="122"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="4"><img alt="" id="galleryPhotoGallery_img4" src="images/tn_1715286821322.jpg" class="image" width="217" height="163"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="5"><img alt="" id="galleryPhotoGallery_img5" src="images/tn_1715286821253.jpg" class="image" width="217" height="163"></a>
-</div>
       </figure>
       <div class="clearfix visible-col3"></div>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="6"><img alt="" id="galleryPhotoGallery_img6" src="images/tn_1714764985989.jpg" class="image" width="217" height="289"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="7"><img alt="" id="galleryPhotoGallery_img7" src="images/tn_1714764985070 (1).jpg" class="image" width="217" height="385"></a>
-</div>
       </figure>
       <figure class="thumbnail">
-<div class="frame">
          <a href="#galleryCarousel" data-bs-slide-to="8"><img alt="" id="galleryPhotoGallery_img8" src="images/tn_1714764984891.jpg" class="image" width="217" height="122"></a>
-</div>
       </figure>
       <div class="clearfix visible-col3"></div>
    </div>
@@ -2794,9 +2734,6 @@ body
 </div>
 </div>
 <div class="col-2">
-<div id="wb_gallery1Heading" style="display:block;width:100%;z-index:24;">
-<h1 id="gallery1Heading">Events and shows we participated in</h1>
-</div>
 <div id="wb_galleryCarousel" style="">
 <div id="galleryCarousel" class="carousel slide">
 <div class="carousel-inner">
@@ -2854,17 +2791,17 @@ body
 <div id="form3LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_Image6" style="display:block;width:100%;height:auto;z-index:26;">
-<img src="images/Yellow%20Logo_03.gif" id="Image6" alt="" width="437" height="223">
+<div id="wb_Image6" style="display:block;width:100%;height:auto;z-index:24;">
+<img src="images/Yellow%20Logo_03.gif" id="Image6" alt="" width="553" height="283">
 </div>
 </div>
 <div class="col-2">
 </div>
 <div class="col-3">
-<div id="wb_form3Heading" style="display:block;width:100%;z-index:27;">
+<div id="wb_form3Heading" style="display:block;width:100%;z-index:25;">
 <h1 id="form3Heading">CONTACT US</h1>
 </div>
-<div id="wb_form3Shape" style="display:inline-block;width:208px;height:6px;z-index:28;position:relative;">
+<div id="wb_form3Shape" style="display:inline-block;width:208px;height:6px;z-index:26;position:relative;">
 <div id="form3Shape"></div>
 </div>
 <div id="wb_form3Text">
@@ -2881,15 +2818,15 @@ body
 <div id="wb_form3Address">
 <span style="color:#FFFFFF;font-family:Arial;font-size:16px;">1060 Bd du Curé-Labelle,<br>Blainville, QC J7C 2M6<br>Email: info@virtual-process.com<br></span>
 </div>
-<div id="wb_form3Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:31;">
+<div id="wb_form3Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:29;">
 <a href="#"><div id="form3Icon1"><i class="fa fa-linkedin-square"></i></div></a>
 </div>
 </div>
 <div class="col-2">
-<input type="text" id="form3Name" style="display:block;width: 100%;height:42px;z-index:32;" name="name" value="" spellcheck="false" placeholder="Name">
-<input type="text" id="form3Email" style="display:block;width: 100%;height:42px;z-index:33;" name="email" value="" spellcheck="false" placeholder="E-mail">
-<input type="text" id="form3Message" style="display:block;width: 100%;height:141px;z-index:34;" name="message" value="" spellcheck="false" placeholder="Message">
-<input type="submit" id="form3Button" name="" value="Send message" style="display:inline-block;width:188px;height:40px;z-index:35;">
+<input type="text" id="form3Name" style="display:block;width: 100%;height:42px;z-index:30;" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="form3Email" style="display:block;width: 100%;height:42px;z-index:31;" name="email" value="" spellcheck="false" placeholder="E-mail">
+<input type="text" id="form3Message" style="display:block;width: 100%;height:141px;z-index:32;" name="message" value="" spellcheck="false" placeholder="Message">
+<input type="submit" id="form3Button" name="" value="Send message" style="display:inline-block;width:188px;height:40px;z-index:33;">
 </div>
 </div>
 </form>
